@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GUI2">
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/usb_1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="308dp"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/usb_bluetooth_music_receiver_hjx_001__bin_loa_thng_th_nh_loa_bluetooth"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="125dp"
+        android:layout_height="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cc_k_h_i_l_ng"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="302dp"
+        android:layout_height="62dp"
+        android:background="@drawable/btn_border"
+        android:drawableLeft="@drawable/camera_1"
+        android:text="Thêm hình ảnh"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="305dp"
+        android:layout_height="233dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rectangle_31"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="264dp"
+        android:layout_height="44dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView18"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:srcCompat="@drawable/h_y_chi_s_nhng_iu_m__bn_th_ch_v_sn_phm"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="306dp"
+        android:layout_height="52dp"
+        android:background="#1051B5"
+        android:text="Gửi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="663dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
